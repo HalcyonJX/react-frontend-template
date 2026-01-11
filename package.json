@@ -6,12 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "openapi2ts": "openapi2ts",
     "lint": "next lint"
   },
   "dependencies": {
     "@ant-design/nextjs-registry": "^1.0.1",
     "@ant-design/pro-components": "^2.8.10",
     "antd": "^5.18.0",
+    "axios": "^1.13.2",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18"
@@ -20,9 +22,11 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@umijs/openapi": "^1.14.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
     "prettier": "3.7.4",
+    "tslib": "^2.8.1",
     "typescript": "^5"
   }
 }
